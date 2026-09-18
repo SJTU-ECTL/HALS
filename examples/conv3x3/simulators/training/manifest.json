@@ -1,0 +1,21 @@
+{
+  "benchmark": "conv3x3",
+  "partition": "hals",
+  "scalars": [
+    {
+      "kernel": 0,
+      "port": "o0",
+      "width": 20,
+      "signed": 0
+    }
+  ],
+  "kernels": [
+    {
+      "name": "hals_conv3x3",
+      "input_width": 144,
+      "scalar_indices": [
+        0
+      ]
+    }
+  ]
+}

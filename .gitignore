@@ -1,0 +1,10 @@
+.venv/
+work/
+build/
+__pycache__/
+*.pyc
+/results/
+/bin/
+/assets/
+
+tmp/

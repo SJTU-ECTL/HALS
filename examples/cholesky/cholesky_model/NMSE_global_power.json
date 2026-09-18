@@ -1,0 +1,25 @@
+{
+  "backend": "hals_power",
+  "prediction_semantics": "clamped_raw",
+  "feature_cols": [
+    "hals_cholesky_div0",
+    "hals_cholesky_residual1",
+    "hals_cholesky_column1"
+  ],
+  "alpha": [
+    0.001944202617098655,
+    0.020817183163462795,
+    0.00524376054764327
+  ],
+  "beta": [
+    0.9390096811118408,
+    1.0307923430717862,
+    0.886575649324312
+  ],
+  "input_scale": [
+    0.0022449157096522,
+    0.0211585117483972,
+    0.0063083317293636
+  ],
+  "intercept": 9.135922148875949e-05
+}

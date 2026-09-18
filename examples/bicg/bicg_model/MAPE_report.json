@@ -1,0 +1,304 @@
+{
+  "train_n": 74,
+  "validation_n": 15,
+  "test_n": 32,
+  "local_or_global_input_dimensions": 2,
+  "selected_backend": "hals_power",
+  "power_validation": {
+    "n": 15,
+    "r2": 1.0,
+    "rmse": 3.670787155865415e-12,
+    "mae": 3.2724448729519e-12
+  },
+  "power_test": {
+    "n": 32,
+    "r2": 1.0,
+    "rmse": 5.433408964376061e-12,
+    "mae": 4.323234831108205e-12
+  },
+  "selected_validation": {
+    "n": 15,
+    "r2": 1.0,
+    "rmse": 3.670787155865415e-12,
+    "mae": 3.2724448729519e-12
+  },
+  "selected_test": {
+    "n": 32,
+    "r2": 1.0,
+    "rmse": 5.433408964376061e-12,
+    "mae": 4.323234831108205e-12
+  },
+  "power_reliable": true,
+  "power_gamma": -2.0328669051467588e-12,
+  "elapsed_sec": 0.0065004825592041016,
+  "split": {
+    "train": [
+      0,
+      1,
+      3,
+      4,
+      9,
+      12,
+      14,
+      17,
+      18,
+      23,
+      25,
+      26,
+      28,
+      29,
+      30,
+      31,
+      33,
+      34,
+      35,
+      36,
+      39,
+      40,
+      42,
+      43,
+      44,
+      45,
+      47,
+      48,
+      49,
+      51,
+      52,
+      54,
+      55,
+      56,
+      58,
+      60,
+      61,
+      63,
+      64,
+      65,
+      66,
+      67,
+      69,
+      72,
+      73,
+      75,
+      76,
+      77,
+      78,
+      79,
+      82,
+      84,
+      86,
+      88,
+      89,
+      92,
+      93,
+      94,
+      96,
+      98,
+      99,
+      101,
+      103,
+      104,
+      106,
+      107,
+      109,
+      112,
+      113,
+      114,
+      115,
+      117,
+      118,
+      120
+    ],
+    "validation": [
+      7,
+      11,
+      13,
+      15,
+      20,
+      22,
+      27,
+      50,
+      57,
+      62,
+      68,
+      74,
+      91,
+      97,
+      111
+    ],
+    "test": [
+      2,
+      5,
+      6,
+      8,
+      10,
+      16,
+      19,
+      21,
+      24,
+      32,
+      37,
+      38,
+      41,
+      46,
+      53,
+      59,
+      70,
+      71,
+      80,
+      81,
+      83,
+      85,
+      87,
+      90,
+      95,
+      100,
+      102,
+      105,
+      108,
+      110,
+      116,
+      119
+    ]
+  },
+  "benchmark": "bicg",
+  "variant": "C",
+  "metric": "MAPE",
+  "end_to_end_test": {
+    "n": 32,
+    "r2": 0.9971887858939927,
+    "rmse": 0.01289265779330403,
+    "mae": 0.0052811145640648365
+  },
+  "bound_audit": {
+    "0.01": {
+      "test_n": 32,
+      "actual_feasible": 2,
+      "predicted_feasible": 2,
+      "false_accept": 0,
+      "false_reject": 0
+    },
+    "0.05": {
+      "test_n": 32,
+      "actual_feasible": 8,
+      "predicted_feasible": 8,
+      "false_accept": 0,
+      "false_reject": 0
+    }
+  },
+  "local_models": [
+    {
+      "train_n": 8,
+      "validation_n": 1,
+      "test_n": 2,
+      "local_or_global_input_dimensions": 1,
+      "selected_backend": "mlp_relu",
+      "power_validation": {
+        "n": 1,
+        "r2": null,
+        "rmse": 0.014278631040777298,
+        "mae": 0.014278631040777298
+      },
+      "power_test": {
+        "n": 2,
+        "r2": 0.928981481315253,
+        "rmse": 0.05773907027696087,
+        "mae": 0.04082768813224566
+      },
+      "selected_validation": {
+        "n": 1,
+        "r2": null,
+        "rmse": 0.00017597816892800378,
+        "mae": 0.00017597816892800378
+      },
+      "selected_test": {
+        "n": 2,
+        "r2": 0.996957336649013,
+        "rmse": 0.011951184018427614,
+        "mae": 0.008483017783499261
+      },
+      "power_reliable": false,
+      "power_gamma": -0.015733622513339332,
+      "elapsed_sec": 0.1340804100036621,
+      "split": {
+        "train": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          10
+        ],
+        "validation": [
+          5
+        ],
+        "test": [
+          0,
+          9
+        ]
+      },
+      "kernel": "bicg_q_acc",
+      "metric": "MAPE",
+      "regime_rows": 11,
+      "all_rows": 17
+    },
+    {
+      "train_n": 8,
+      "validation_n": 1,
+      "test_n": 2,
+      "local_or_global_input_dimensions": 1,
+      "selected_backend": "mlp_relu",
+      "power_validation": {
+        "n": 1,
+        "r2": null,
+        "rmse": 0.012190125787188928,
+        "mae": 0.012190125787188928
+      },
+      "power_test": {
+        "n": 2,
+        "r2": 0.932607503060297,
+        "rmse": 0.05057929388967592,
+        "mae": 0.03576496169701715
+      },
+      "selected_validation": {
+        "n": 1,
+        "r2": null,
+        "rmse": 0.00039196906920904717,
+        "mae": 0.00039196906920904717
+      },
+      "selected_test": {
+        "n": 2,
+        "r2": 0.9864580972960113,
+        "rmse": 0.02267288748768278,
+        "mae": 0.016098944492312417
+      },
+      "power_reliable": false,
+      "power_gamma": -0.013040779911143387,
+      "elapsed_sec": 0.12719464302062988,
+      "split": {
+        "train": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          10
+        ],
+        "validation": [
+          5
+        ],
+        "test": [
+          0,
+          9
+        ]
+      },
+      "kernel": "bicg_s_acc",
+      "metric": "MAPE",
+      "regime_rows": 11,
+      "all_rows": 17
+    }
+  ]
+}

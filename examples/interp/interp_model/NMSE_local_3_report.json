@@ -1,0 +1,71 @@
+{
+  "train_n": 18,
+  "validation_n": 3,
+  "test_n": 4,
+  "local_or_global_input_dimensions": 1,
+  "selected_backend": "hals_power",
+  "power_validation": {
+    "n": 3,
+    "r2": -2.842762467088293,
+    "rmse": 1.5853768450018758e-08,
+    "mae": 1.5740803837006716e-08
+  },
+  "power_test": {
+    "n": 4,
+    "r2": 0.9992702589679637,
+    "rmse": 2.0265950229048943e-07,
+    "mae": 1.257403946310489e-07
+  },
+  "selected_validation": {
+    "n": 3,
+    "r2": -2.842762467088293,
+    "rmse": 1.5853768450018758e-08,
+    "mae": 1.5740803837006716e-08
+  },
+  "selected_test": {
+    "n": 4,
+    "r2": 0.9992702589679637,
+    "rmse": 2.0265950229048943e-07,
+    "mae": 1.257403946310489e-07
+  },
+  "power_reliable": false,
+  "power_gamma": 1.7076795742047057e-08,
+  "elapsed_sec": 0.09805107116699219,
+  "split": {
+    "train": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      10,
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      19,
+      21,
+      23,
+      24
+    ],
+    "validation": [
+      5,
+      11,
+      17
+    ],
+    "test": [
+      0,
+      9,
+      20,
+      22
+    ]
+  },
+  "kernel": "hals_interp_k4",
+  "metric": "NMSE",
+  "regime_rows": 25,
+  "all_rows": 36
+}

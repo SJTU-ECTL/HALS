@@ -1,0 +1,19 @@
+{
+  "status": "identical",
+  "mismatches": {
+    "ports": [],
+    "outputs": [],
+    "states": []
+  },
+  "original_cells": 245,
+  "partitioned_cells": 253,
+  "primary_output_bits": 145,
+  "state_cells": 18,
+  "original_undriven_symbols": 0,
+  "partitioned_undriven_symbols": 0,
+  "proof": "Identical typed RTL operator DAGs at every primary output and every state-cell input; state parameters, port shapes and initialization compared",
+  "benchmark": "cholesky",
+  "elapsed_sec": 0.0527646541595459,
+  "original": "workspace:experiments/hals_comparison_20260914/structure/cholesky/flat.json",
+  "partitioned": "workspace:experiments/hals_comparison_20260914/structure/cholesky/hals/clean.json"
+}

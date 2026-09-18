@@ -1,0 +1,12 @@
+{
+  "benchmark": "decimation",
+  "method": "C",
+  "partition_count": 5,
+  "partition_names": [
+    "decim_stage1",
+    "decim_stage2",
+    "decim_stage3",
+    "decim_stage4",
+    "hals_decim_stage5"
+  ]
+}

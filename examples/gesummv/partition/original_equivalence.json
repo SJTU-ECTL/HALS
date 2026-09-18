@@ -1,0 +1,19 @@
+{
+  "status": "identical",
+  "mismatches": {
+    "ports": [],
+    "outputs": [],
+    "states": []
+  },
+  "original_cells": 15522,
+  "partitioned_cells": 15528,
+  "primary_output_bits": 17,
+  "state_cells": 33,
+  "original_undriven_symbols": 32,
+  "partitioned_undriven_symbols": 32,
+  "proof": "Identical typed RTL operator DAGs at every primary output and every state-cell input; state parameters, port shapes and initialization compared",
+  "benchmark": "gesummv",
+  "elapsed_sec": 1.2747445106506348,
+  "original": "workspace:experiments/hals_comparison_20260914/structure/gesummv/flat.json",
+  "partitioned": "workspace:experiments/hals_comparison_20260914/structure/gesummv/hals/clean.json"
+}

@@ -1,0 +1,6 @@
+{
+  "benchmark": "cholesky",
+  "partition": null,
+  "scalars": [],
+  "kernels": []
+}

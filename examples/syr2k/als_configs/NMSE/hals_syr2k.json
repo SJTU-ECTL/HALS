@@ -1,0 +1,84 @@
+{
+  "module": "hals_syr2k",
+  "IO": {
+    "i0": {
+      "direction": "input",
+      "width": 16,
+      "signed": 0
+    },
+    "i1": {
+      "direction": "input",
+      "width": 16,
+      "signed": 0
+    },
+    "i2": {
+      "direction": "input",
+      "width": 16,
+      "signed": 0
+    },
+    "i3": {
+      "direction": "input",
+      "width": 16,
+      "signed": 0
+    },
+    "i4": {
+      "direction": "input",
+      "width": 16,
+      "signed": 0
+    },
+    "i5": {
+      "direction": "input",
+      "width": 16,
+      "signed": 0
+    },
+    "i6": {
+      "direction": "input",
+      "width": 16,
+      "signed": 0
+    },
+    "o0": {
+      "direction": "output",
+      "width": 16,
+      "signed": 0
+    }
+  },
+  "blifPath": "@ROOT@/examples/syr2k/partition/als_exact/hals_syr2k/exact.blif",
+  "patternFile": "@ROOT@/examples/syr2k/partition/als_patterns/hals_syr2k.pattern",
+  "outputNum": 1,
+  "outputWidths": [
+    16
+  ],
+  "isSigned": false,
+  "errorType": "NMSE",
+  "errorBounds": [
+    0.001,
+    0.01
+  ],
+  "errorBound": 0.001,
+  "designErrUppBounds": [
+    0.001,
+    0.01
+  ],
+  "designErrUppBound": 0.001,
+  "designModelPath": "@ROOT@/examples/syr2k/syr2k_model/als/NMSE/hals_syr2k.json",
+  "featureIndices": [
+    0
+  ],
+  "featureMetrics": [
+    "NMSE"
+  ],
+  "initialFeatureVector": [
+    0.0
+  ],
+  "modelSafetyMargin": 0.0,
+  "scalarKernelFeature": false,
+  "nFrame": 4096,
+  "distrType": "SELF",
+  "seed": 2027,
+  "maxRound": 0,
+  "maxCandResub": 1000000,
+  "maxExactCandValidate": 1000000,
+  "candidateValidationPolicy": "complete_size_gain",
+  "candidateFeatureSource": "simulation",
+  "earlyExitPolicy": "disabled"
+}

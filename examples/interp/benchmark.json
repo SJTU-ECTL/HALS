@@ -1,0 +1,11 @@
+{
+  "benchmark": "interp",
+  "method": "C",
+  "partition_count": 4,
+  "partition_names": [
+    "hals_interp_k1",
+    "hals_interp_k2",
+    "hals_interp_k3",
+    "hals_interp_k4"
+  ]
+}

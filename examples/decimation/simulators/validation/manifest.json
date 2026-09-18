@@ -1,0 +1,138 @@
+{
+  "benchmark": "decimation",
+  "partition": "hals",
+  "scalars": [
+    {
+      "kernel": 0,
+      "port": "o0",
+      "width": 16,
+      "signed": 1
+    },
+    {
+      "kernel": 1,
+      "port": "o0",
+      "width": 16,
+      "signed": 1
+    },
+    {
+      "kernel": 2,
+      "port": "o0",
+      "width": 16,
+      "signed": 1
+    },
+    {
+      "kernel": 3,
+      "port": "o0",
+      "width": 16,
+      "signed": 1
+    },
+    {
+      "kernel": 4,
+      "port": "o0",
+      "width": 16,
+      "signed": 1
+    }
+  ],
+  "kernels": [
+    {
+      "name": "decim_stage1",
+      "input_width": 112,
+      "input_ports": [
+        "i0",
+        "i1",
+        "i2",
+        "i3",
+        "i4",
+        "i5",
+        "i6"
+      ],
+      "scalar_indices": [
+        0
+      ]
+    },
+    {
+      "name": "decim_stage2",
+      "input_width": 112,
+      "input_ports": [
+        "i0",
+        "i1",
+        "i2",
+        "i3",
+        "i4",
+        "i5",
+        "i6"
+      ],
+      "scalar_indices": [
+        1
+      ]
+    },
+    {
+      "name": "decim_stage3",
+      "input_width": 112,
+      "input_ports": [
+        "i0",
+        "i1",
+        "i2",
+        "i3",
+        "i4",
+        "i5",
+        "i6"
+      ],
+      "scalar_indices": [
+        2
+      ]
+    },
+    {
+      "name": "decim_stage4",
+      "input_width": 176,
+      "input_ports": [
+        "i0",
+        "i1",
+        "i2",
+        "i3",
+        "i4",
+        "i5",
+        "i6",
+        "i7",
+        "i8",
+        "i9",
+        "i10"
+      ],
+      "scalar_indices": [
+        3
+      ]
+    },
+    {
+      "name": "hals_decim_stage5",
+      "input_width": 368,
+      "input_ports": [
+        "i0",
+        "i1",
+        "i2",
+        "i3",
+        "i4",
+        "i5",
+        "i6",
+        "i7",
+        "i8",
+        "i9",
+        "i10",
+        "i11",
+        "i12",
+        "i13",
+        "i14",
+        "i15",
+        "i16",
+        "i17",
+        "i18",
+        "i19",
+        "i20",
+        "i21",
+        "i22"
+      ],
+      "scalar_indices": [
+        4
+      ]
+    }
+  ]
+}

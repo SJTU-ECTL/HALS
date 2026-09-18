@@ -1,0 +1,133 @@
+{
+  "train_n": 3,
+  "validation_n": 3,
+  "test_n": 3,
+  "local_or_global_input_dimensions": 1,
+  "selected_backend": "hals_power",
+  "power_validation": {
+    "n": 3,
+    "r2": 1.0,
+    "rmse": 0.0,
+    "mae": 0.0
+  },
+  "power_test": {
+    "n": 3,
+    "r2": 1.0,
+    "rmse": 0.0,
+    "mae": 0.0
+  },
+  "selected_validation": {
+    "n": 3,
+    "r2": 1.0,
+    "rmse": 0.0,
+    "mae": 0.0
+  },
+  "selected_test": {
+    "n": 3,
+    "r2": 1.0,
+    "rmse": 0.0,
+    "mae": 0.0
+  },
+  "power_reliable": true,
+  "power_gamma": 0.0,
+  "elapsed_sec": 0.0068628787994384766,
+  "split": {
+    "train": [
+      1,
+      4,
+      6
+    ],
+    "validation": [
+      5,
+      7,
+      8
+    ],
+    "test": [
+      0,
+      2,
+      3
+    ]
+  },
+  "benchmark": "syr2k",
+  "variant": "C",
+  "metric": "MAPE",
+  "end_to_end_test": {
+    "n": 3,
+    "r2": 1.0,
+    "rmse": 0.0,
+    "mae": 0.0
+  },
+  "bound_audit": {
+    "0.01": {
+      "test_n": 3,
+      "actual_feasible": 3,
+      "predicted_feasible": 3,
+      "false_accept": 0,
+      "false_reject": 0
+    },
+    "0.05": {
+      "test_n": 3,
+      "actual_feasible": 3,
+      "predicted_feasible": 3,
+      "false_accept": 0,
+      "false_reject": 0
+    }
+  },
+  "local_models": [
+    {
+      "train_n": 7,
+      "validation_n": 1,
+      "test_n": 1,
+      "local_or_global_input_dimensions": 1,
+      "selected_backend": "hals_power",
+      "power_validation": {
+        "n": 1,
+        "r2": null,
+        "rmse": 0.0,
+        "mae": 0.0
+      },
+      "power_test": {
+        "n": 1,
+        "r2": null,
+        "rmse": 0.0,
+        "mae": 0.0
+      },
+      "selected_validation": {
+        "n": 1,
+        "r2": null,
+        "rmse": 0.0,
+        "mae": 0.0
+      },
+      "selected_test": {
+        "n": 1,
+        "r2": null,
+        "rmse": 0.0,
+        "mae": 0.0
+      },
+      "power_reliable": true,
+      "power_gamma": 0.0,
+      "elapsed_sec": 0.0029294490814208984,
+      "split": {
+        "train": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8
+        ],
+        "validation": [
+          5
+        ],
+        "test": [
+          0
+        ]
+      },
+      "kernel": "hals_syr2k",
+      "metric": "MAPE",
+      "regime_rows": 9,
+      "all_rows": 17
+    }
+  ]
+}

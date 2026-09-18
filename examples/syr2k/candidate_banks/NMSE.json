@@ -1,0 +1,716 @@
+{
+  "groups": [
+    {
+      "name": "hals_syr2k",
+      "outputs": [
+        "C_next"
+      ],
+      "rule": "single-output arithmetic DAG; no internal memory/branch cut",
+      "input_sources": [
+        "A_ik",
+        "A_jk",
+        "B_ik",
+        "B_jk",
+        "C_in",
+        "alpha",
+        "beta"
+      ],
+      "io": {
+        "i0": {
+          "direction": "input",
+          "width": 16,
+          "signed": 0
+        },
+        "i1": {
+          "direction": "input",
+          "width": 16,
+          "signed": 0
+        },
+        "i2": {
+          "direction": "input",
+          "width": 16,
+          "signed": 0
+        },
+        "i3": {
+          "direction": "input",
+          "width": 16,
+          "signed": 0
+        },
+        "i4": {
+          "direction": "input",
+          "width": 16,
+          "signed": 0
+        },
+        "i5": {
+          "direction": "input",
+          "width": 16,
+          "signed": 0
+        },
+        "i6": {
+          "direction": "input",
+          "width": 16,
+          "signed": 0
+        },
+        "o0": {
+          "direction": "output",
+          "width": 16,
+          "signed": 0
+        }
+      },
+      "cell_count": 10
+    }
+  ],
+  "fronts": [
+    [
+      {
+        "area": 4936.64,
+        "error": 0.0,
+        "features": [
+          0.0
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_01112/network.blif",
+        "round": -1
+      },
+      {
+        "area": 3943.200000000041,
+        "error": 0.0,
+        "features": [
+          0.0
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_01829/network.blif",
+        "round": 12
+      },
+      {
+        "area": 3604.980000000018,
+        "error": 0.0004062158452981259,
+        "features": [
+          1.3411454356446386e-07
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_02763/network.blif",
+        "round": 18
+      },
+      {
+        "area": 3212.3700000000013,
+        "error": 0.0006093237679471889,
+        "features": [
+          2.011718153466958e-07
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_02289/network.blif",
+        "round": 36
+      },
+      {
+        "area": 3199.0399999999995,
+        "error": 0.0006093327211365959,
+        "features": [
+          2.0117477129468423e-07
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_01183/network.blif",
+        "round": 37
+      },
+      {
+        "area": 3185.979999999997,
+        "error": 0.0006093477005111811,
+        "features": [
+          2.0117971682304953e-07
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_00028/network.blif",
+        "round": 38
+      },
+      {
+        "area": 3150.9399999999955,
+        "error": 0.0006094172599058058,
+        "features": [
+          2.0120268226511363e-07
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_03228/network.blif",
+        "round": 39
+      },
+      {
+        "area": 3112.589999999991,
+        "error": 0.0006105753205202752,
+        "features": [
+          2.0158502276838857e-07
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_03625/network.blif",
+        "round": 40
+      },
+      {
+        "area": 3091.1099999999915,
+        "error": 0.0006114029740102772,
+        "features": [
+          2.0185827742185907e-07
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_03072/network.blif",
+        "round": 41
+      },
+      {
+        "area": 3078.8499999999904,
+        "error": 0.000613115615837831,
+        "features": [
+          2.024237161649569e-07
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_01583/network.blif",
+        "round": 42
+      },
+      {
+        "area": 3042.929999999987,
+        "error": 0.0006131252577341157,
+        "features": [
+          2.0242689949355985e-07
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_02427/network.blif",
+        "round": 43
+      },
+      {
+        "area": 3012.879999999984,
+        "error": 0.0006133029441085034,
+        "features": [
+          2.024855636920998e-07
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_01188/network.blif",
+        "round": 45
+      },
+      {
+        "area": 2973.289999999982,
+        "error": 0.0006146641732518272,
+        "features": [
+          2.0293498147665106e-07
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_00481/network.blif",
+        "round": 46
+      },
+      {
+        "area": 2949.84999999998,
+        "error": 0.0006180569155069743,
+        "features": [
+          2.040551152288118e-07
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_00851/network.blif",
+        "round": 47
+      },
+      {
+        "area": 2853.3499999999776,
+        "error": 0.0006201753778620786,
+        "features": [
+          2.0475453799900135e-07
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_02680/network.blif",
+        "round": 51
+      },
+      {
+        "area": 2838.4299999999785,
+        "error": 0.000620830510279274,
+        "features": [
+          2.0497083380854064e-07
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_03424/network.blif",
+        "round": 52
+      },
+      {
+        "area": 2819.359999999977,
+        "error": 0.0006219963188461149,
+        "features": [
+          2.0535573234372865e-07
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_03486/network.blif",
+        "round": 53
+      },
+      {
+        "area": 2782.4099999999744,
+        "error": 0.0006221171869031113,
+        "features": [
+          2.053956376415727e-07
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_00073/network.blif",
+        "round": 55
+      },
+      {
+        "area": 2753.389999999972,
+        "error": 0.0006222449420288823,
+        "features": [
+          2.054378167455617e-07
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_00251/network.blif",
+        "round": 56
+      },
+      {
+        "area": 2715.9099999999708,
+        "error": 0.0006235169836315734,
+        "features": [
+          2.0585778874053575e-07
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_00613/network.blif",
+        "round": 57
+      },
+      {
+        "area": 2694.85999999997,
+        "error": 0.0006257618236986938,
+        "features": [
+          2.065989358534853e-07
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_00332/network.blif",
+        "round": 58
+      },
+      {
+        "area": 2680.199999999969,
+        "error": 0.0006276189217937975,
+        "features": [
+          2.0721206768047365e-07
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_00914/network.blif",
+        "round": 59
+      },
+      {
+        "area": 2523.509999999956,
+        "error": 0.0006283675461696097,
+        "features": [
+          2.0745923040843076e-07
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_02665/network.blif",
+        "round": 72
+      },
+      {
+        "area": 2520.329999999956,
+        "error": 0.0006300838037082702,
+        "features": [
+          2.080258628997547e-07
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_01757/network.blif",
+        "round": 73
+      },
+      {
+        "area": 2511.569999999955,
+        "error": 0.0006319458949282355,
+        "features": [
+          2.0864064323619815e-07
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_00235/network.blif",
+        "round": 74
+      },
+      {
+        "area": 2491.8599999999533,
+        "error": 0.0007405081374379234,
+        "features": [
+          2.4448310426042495e-07
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_01420/network.blif",
+        "round": 76
+      },
+      {
+        "area": 2361.209999999947,
+        "error": 0.0008414701552012676,
+        "features": [
+          2.7781630651338167e-07
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_01828/network.blif",
+        "round": 99
+      },
+      {
+        "area": 2167.409999999935,
+        "error": 0.0009762977840738299,
+        "features": [
+          3.223304388777945e-07
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_02601/network.blif",
+        "round": 130
+      },
+      {
+        "area": 2161.299999999934,
+        "error": 0.0009781552265223723,
+        "features": [
+          3.229436843950901e-07
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_00983/network.blif",
+        "round": 131
+      },
+      {
+        "area": 2148.7999999999324,
+        "error": 0.0009792986521156954,
+        "features": [
+          3.23321193060307e-07
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_01520/network.blif",
+        "round": 132
+      },
+      {
+        "area": 2103.32999999993,
+        "error": 0.0009808759630418257,
+        "features": [
+          3.238419515126563e-07
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_02509/network.blif",
+        "round": 138
+      },
+      {
+        "area": 2019.329999999928,
+        "error": 0.0009844107510904516,
+        "features": [
+          3.2500898251655683e-07
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_01734/network.blif",
+        "round": 149
+      },
+      {
+        "area": 2009.2199999999286,
+        "error": 0.0009874486371269813,
+        "features": [
+          3.2601195840709854e-07
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_01498/network.blif",
+        "round": 150
+      },
+      {
+        "area": 1931.839999999932,
+        "error": 0.000987554697986112,
+        "features": [
+          3.260469750217309e-07
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_02694/network.blif",
+        "round": 160
+      },
+      {
+        "area": 1852.6499999999387,
+        "error": 0.0009923470647930017,
+        "features": [
+          3.27629203027701e-07
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_02169/network.blif",
+        "round": 171
+      },
+      {
+        "area": 1783.789999999942,
+        "error": 0.0009952843996254206,
+        "features": [
+          3.285989813485263e-07
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_02597/network.blif",
+        "round": 185
+      },
+      {
+        "area": 1772.6199999999424,
+        "error": 0.0009978629181746762,
+        "features": [
+          3.2945029436919915e-07
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_01958/network.blif",
+        "round": 186
+      },
+      {
+        "area": 1093.1599999999805,
+        "error": 0.000998212781268432,
+        "features": [
+          3.295658037213631e-07
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_02746/network.blif",
+        "round": 298
+      },
+      {
+        "area": 1089.1599999999805,
+        "error": 0.0009982238005784715,
+        "features": [
+          3.29569441811195e-07
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_02186/network.blif",
+        "round": 299
+      },
+      {
+        "area": 625.6699999999967,
+        "error": 0.0009989896426262205,
+        "features": [
+          3.2982228905451453e-07
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_01027/network.blif",
+        "round": 419
+      },
+      {
+        "area": 625.4199999999971,
+        "error": 0.0009990695326240074,
+        "features": [
+          3.2984866520579606e-07
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_01593/network.blif",
+        "round": 420
+      },
+      {
+        "area": 617.689999999997,
+        "error": 0.00099924859641215,
+        "features": [
+          3.29907784165565e-07
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_03100/network.blif",
+        "round": 421
+      },
+      {
+        "area": 605.9899999999977,
+        "error": 0.0009994772470954707,
+        "features": [
+          3.2998327452957766e-07
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_01364/network.blif",
+        "round": 422
+      },
+      {
+        "area": 595.0999999999982,
+        "error": 0.0010120998667457802,
+        "features": [
+          3.3415070643205957e-07
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_01492/network.blif",
+        "round": 425
+      },
+      {
+        "area": 584.9999999999984,
+        "error": 0.0010239318509007514,
+        "features": [
+          3.3805710538910013e-07
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_00547/network.blif",
+        "round": 426
+      },
+      {
+        "area": 561.6799999999988,
+        "error": 0.0010299401296998184,
+        "features": [
+          3.400407738699629e-07
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_03230/network.blif",
+        "round": 427
+      },
+      {
+        "area": 539.3100000000002,
+        "error": 0.0010947557113524763,
+        "features": [
+          3.614400182614065e-07
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_00841/network.blif",
+        "round": 428
+      },
+      {
+        "area": 524.9600000000006,
+        "error": 0.0011305161272583395,
+        "features": [
+          3.732465292884946e-07
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_02232/network.blif",
+        "round": 429
+      },
+      {
+        "area": 503.72000000000145,
+        "error": 0.0012261802673667291,
+        "features": [
+          4.048306061644411e-07
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_00532/network.blif",
+        "round": 431
+      },
+      {
+        "area": 460.9100000000012,
+        "error": 0.001281629435485766,
+        "features": [
+          4.2313747419873967e-07
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_02682/network.blif",
+        "round": 435
+      },
+      {
+        "area": 460.60000000000116,
+        "error": 0.001304122602104006,
+        "features": [
+          4.3056372506817765e-07
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_00228/network.blif",
+        "round": 436
+      },
+      {
+        "area": 458.24000000000126,
+        "error": 0.0013425937682795994,
+        "features": [
+          4.4326520619392184e-07
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_02277/network.blif",
+        "round": 437
+      },
+      {
+        "area": 439.570000000001,
+        "error": 0.0014080043926743932,
+        "features": [
+          4.6486090743628995e-07
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_00312/network.blif",
+        "round": 438
+      },
+      {
+        "area": 431.330000000001,
+        "error": 0.004531251514425398,
+        "features": [
+          1.4960192608610473e-06
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_03212/network.blif",
+        "round": 439
+      },
+      {
+        "area": 410.35000000000105,
+        "error": 0.004655731150287221,
+        "features": [
+          1.5371169426475045e-06
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_00720/network.blif",
+        "round": 441
+      },
+      {
+        "area": 391.22000000000077,
+        "error": 0.008029703388195713,
+        "features": [
+          2.651053663540744e-06
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_01596/network.blif",
+        "round": 447
+      },
+      {
+        "area": 363.61000000000087,
+        "error": 0.008321166893569432,
+        "features": [
+          2.7472820491178917e-06
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_01482/network.blif",
+        "round": 449
+      },
+      {
+        "area": 343.90000000000083,
+        "error": 0.00835773998359071,
+        "features": [
+          2.759356869270085e-06
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_02540/network.blif",
+        "round": 450
+      },
+      {
+        "area": 337.8300000000008,
+        "error": 0.008646682821792881,
+        "features": [
+          2.854753041798177e-06
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_02245/network.blif",
+        "round": 451
+      },
+      {
+        "area": 334.35000000000076,
+        "error": 0.008727335906799888,
+        "features": [
+          2.88138113080057e-06
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_01162/network.blif",
+        "round": 452
+      },
+      {
+        "area": 327.45000000000067,
+        "error": 0.008904658643956394,
+        "features": [
+          2.939925272376073e-06
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_03476/network.blif",
+        "round": 454
+      },
+      {
+        "area": 240.30000000000067,
+        "error": 0.009223480341330815,
+        "features": [
+          3.0451861254834577e-06
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_01146/network.blif",
+        "round": 464
+      },
+      {
+        "area": 235.23000000000067,
+        "error": 0.00958352527756321,
+        "features": [
+          3.1640570726521125e-06
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_00988/network.blif",
+        "round": 465
+      },
+      {
+        "area": 230.19000000000062,
+        "error": 0.009880528741059314,
+        "features": [
+          3.2621145078922656e-06
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_00944/network.blif",
+        "round": 466
+      },
+      {
+        "area": 226.21000000000063,
+        "error": 0.009936176256759063,
+        "features": [
+          3.2804868615435388e-06
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_03778/network.blif",
+        "round": 470
+      },
+      {
+        "area": 208.90000000000055,
+        "error": 0.009958132232012874,
+        "features": [
+          3.28773575553367e-06
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_00484/network.blif",
+        "round": 475
+      },
+      {
+        "area": 204.3700000000005,
+        "error": 0.009964214891154708,
+        "features": [
+          3.289743981120898e-06
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_03518/network.blif",
+        "round": 476
+      },
+      {
+        "area": 203.32000000000048,
+        "error": 0.009975785166696241,
+        "features": [
+          3.2935639754444305e-06
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_00874/network.blif",
+        "round": 478
+      },
+      {
+        "area": 3935.440000000042,
+        "error": 0.0004062158452981259,
+        "features": [
+          1.3411454356446386e-07
+        ],
+        "netlist": "@ASSETS@/candidates/candidate_02773/network.blif",
+        "round": 15
+      }
+    ]
+  ],
+  "incumbents": [
+    {
+      "candidates": [
+        {
+          "area": 4167.100000000071,
+          "error": 0.0004062158452981259,
+          "features": [
+            1.3411454356446386e-07
+          ],
+          "netlist": "@ASSETS@/candidates/candidate_01496/network.blif",
+          "round": 10
+        }
+      ]
+    },
+    {
+      "candidates": [
+        {
+          "area": 3903.8500000000427,
+          "error": 0.023752343176459863,
+          "features": [
+            7.841975394533234e-06
+          ],
+          "netlist": "@ASSETS@/candidates/candidate_00948/network.blif",
+          "round": 15
+        }
+      ]
+    }
+  ]
+}

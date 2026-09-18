@@ -1,0 +1,19 @@
+{
+  "status": "identical",
+  "mismatches": {
+    "ports": [],
+    "outputs": [],
+    "states": []
+  },
+  "original_cells": 54597,
+  "partitioned_cells": 54597,
+  "primary_output_bits": 17,
+  "state_cells": 45,
+  "original_undriven_symbols": 832,
+  "partitioned_undriven_symbols": 832,
+  "proof": "Identical typed RTL operator DAGs at every primary output and every state-cell input; state parameters, port shapes and initialization compared",
+  "benchmark": "bicg",
+  "elapsed_sec": 6.816028118133545,
+  "original": "workspace:experiments/hals_comparison_20260914/structure/bicg/flat.json",
+  "partitioned": "workspace:experiments/hals_comparison_20260914/structure/bicg/hals/clean.json"
+}

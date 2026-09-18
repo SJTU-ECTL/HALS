@@ -1,0 +1,6 @@
+{
+  "benchmark": "gesummv",
+  "partition": null,
+  "scalars": [],
+  "kernels": []
+}

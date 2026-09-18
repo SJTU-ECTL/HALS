@@ -1,0 +1,57 @@
+{
+  "train_n": 8,
+  "validation_n": 1,
+  "test_n": 2,
+  "local_or_global_input_dimensions": 1,
+  "selected_backend": "mlp_relu",
+  "power_validation": {
+    "n": 1,
+    "r2": null,
+    "rmse": 0.0024448613056052755,
+    "mae": 0.0024448613056052755
+  },
+  "power_test": {
+    "n": 2,
+    "r2": 0.815044130530238,
+    "rmse": 0.07587833847140829,
+    "mae": 0.05365408767830089
+  },
+  "selected_validation": {
+    "n": 1,
+    "r2": null,
+    "rmse": 0.000723129606571424,
+    "mae": 0.000723129606571424
+  },
+  "selected_test": {
+    "n": 2,
+    "r2": 0.9163203036400616,
+    "rmse": 0.05103801806609575,
+    "mae": 0.03608932867285783
+  },
+  "power_reliable": false,
+  "power_gamma": -0.003586395305309989,
+  "elapsed_sec": 0.11184358596801758,
+  "split": {
+    "train": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      10
+    ],
+    "validation": [
+      5
+    ],
+    "test": [
+      0,
+      9
+    ]
+  },
+  "kernel": "bicg_s_acc",
+  "metric": "NMSE",
+  "regime_rows": 11,
+  "all_rows": 17
+}

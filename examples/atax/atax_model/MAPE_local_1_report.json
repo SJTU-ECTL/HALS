@@ -1,0 +1,60 @@
+{
+  "train_n": 10,
+  "validation_n": 2,
+  "test_n": 2,
+  "local_or_global_input_dimensions": 1,
+  "selected_backend": "hals_power",
+  "power_validation": {
+    "n": 2,
+    "r2": -0.43557823309884225,
+    "rmse": 10.18778452675272,
+    "mae": 8.502885259658377
+  },
+  "power_test": {
+    "n": 2,
+    "r2": -0.8828482211476614,
+    "rmse": 21.81619275541822,
+    "mae": 15.89905478860656
+  },
+  "selected_validation": {
+    "n": 2,
+    "r2": -0.43557823309884225,
+    "rmse": 10.18778452675272,
+    "mae": 8.502885259658377
+  },
+  "selected_test": {
+    "n": 2,
+    "r2": -0.8828482211476614,
+    "rmse": 21.81619275541822,
+    "mae": 15.89905478860656
+  },
+  "power_reliable": false,
+  "power_gamma": 30.837807185324607,
+  "elapsed_sec": 0.07517123222351074,
+  "split": {
+    "train": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      10,
+      12,
+      13
+    ],
+    "validation": [
+      5,
+      11
+    ],
+    "test": [
+      0,
+      9
+    ]
+  },
+  "kernel": "atax_y_acc",
+  "metric": "MAPE",
+  "regime_rows": 14,
+  "all_rows": 17
+}

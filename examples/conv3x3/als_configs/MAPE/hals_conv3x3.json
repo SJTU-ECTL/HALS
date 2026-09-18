@@ -1,0 +1,139 @@
+{
+  "module": "hals_conv3x3",
+  "IO": {
+    "i0": {
+      "direction": "input",
+      "width": 8,
+      "signed": 0
+    },
+    "i1": {
+      "direction": "input",
+      "width": 8,
+      "signed": 0
+    },
+    "i2": {
+      "direction": "input",
+      "width": 8,
+      "signed": 0
+    },
+    "i3": {
+      "direction": "input",
+      "width": 8,
+      "signed": 0
+    },
+    "i4": {
+      "direction": "input",
+      "width": 8,
+      "signed": 0
+    },
+    "i5": {
+      "direction": "input",
+      "width": 8,
+      "signed": 0
+    },
+    "i6": {
+      "direction": "input",
+      "width": 8,
+      "signed": 0
+    },
+    "i7": {
+      "direction": "input",
+      "width": 8,
+      "signed": 0
+    },
+    "i8": {
+      "direction": "input",
+      "width": 8,
+      "signed": 0
+    },
+    "i9": {
+      "direction": "input",
+      "width": 8,
+      "signed": 0
+    },
+    "i10": {
+      "direction": "input",
+      "width": 8,
+      "signed": 0
+    },
+    "i11": {
+      "direction": "input",
+      "width": 8,
+      "signed": 0
+    },
+    "i12": {
+      "direction": "input",
+      "width": 8,
+      "signed": 0
+    },
+    "i13": {
+      "direction": "input",
+      "width": 8,
+      "signed": 0
+    },
+    "i14": {
+      "direction": "input",
+      "width": 8,
+      "signed": 0
+    },
+    "i15": {
+      "direction": "input",
+      "width": 8,
+      "signed": 0
+    },
+    "i16": {
+      "direction": "input",
+      "width": 8,
+      "signed": 0
+    },
+    "i17": {
+      "direction": "input",
+      "width": 8,
+      "signed": 0
+    },
+    "o0": {
+      "direction": "output",
+      "width": 20,
+      "signed": 0
+    }
+  },
+  "blifPath": "@ROOT@/examples/conv3x3/partition/als_exact/hals_conv3x3/exact.blif",
+  "patternFile": "@ROOT@/examples/conv3x3/partition/als_patterns/hals_conv3x3.pattern",
+  "outputNum": 1,
+  "outputWidths": [
+    20
+  ],
+  "isSigned": false,
+  "errorType": "MAPE",
+  "errorBounds": [
+    0.01,
+    0.05
+  ],
+  "errorBound": 0.01,
+  "designErrUppBounds": [
+    0.01,
+    0.05
+  ],
+  "designErrUppBound": 0.01,
+  "designModelPath": "@ROOT@/examples/conv3x3/conv3x3_model/als/MAPE/hals_conv3x3.json",
+  "featureIndices": [
+    0
+  ],
+  "featureMetrics": [
+    "MAPE"
+  ],
+  "initialFeatureVector": [
+    0.0
+  ],
+  "modelSafetyMargin": 0.0,
+  "scalarKernelFeature": false,
+  "nFrame": 4096,
+  "distrType": "SELF",
+  "seed": 2027,
+  "maxRound": 0,
+  "maxCandResub": 1000000,
+  "maxExactCandValidate": 1000000,
+  "candidateValidationPolicy": "complete_size_gain",
+  "candidateFeatureSource": "simulation",
+  "earlyExitPolicy": "disabled"
+}

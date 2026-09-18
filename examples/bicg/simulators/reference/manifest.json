@@ -1,0 +1,6 @@
+{
+  "benchmark": "bicg",
+  "partition": null,
+  "scalars": [],
+  "kernels": []
+}

@@ -1,0 +1,73 @@
+{
+  "train_n": 15,
+  "validation_n": 5,
+  "test_n": 7,
+  "local_or_global_input_dimensions": 2,
+  "selected_backend": "hals_power",
+  "power_validation": {
+    "n": 5,
+    "r2": 0.9986063276195668,
+    "rmse": 0.0006469422319236643,
+    "mae": 0.00038323121824585763
+  },
+  "power_test": {
+    "n": 7,
+    "r2": 0.9992871108387791,
+    "rmse": 8.892333980259133e-05,
+    "mae": 5.005873619959165e-05
+  },
+  "selected_validation": {
+    "n": 5,
+    "r2": 0.9986063276195668,
+    "rmse": 0.0006469422319236643,
+    "mae": 0.00038323121824585763
+  },
+  "selected_test": {
+    "n": 7,
+    "r2": 0.9992871108387791,
+    "rmse": 8.892333980259133e-05,
+    "mae": 5.005873619959165e-05
+  },
+  "power_reliable": true,
+  "power_gamma": -0.00039793439395840714,
+  "elapsed_sec": 0.01734328269958496,
+  "split": {
+    "train": [
+      1,
+      3,
+      6,
+      7,
+      8,
+      9,
+      11,
+      13,
+      14,
+      16,
+      19,
+      21,
+      22,
+      24,
+      26
+    ],
+    "validation": [
+      0,
+      18,
+      20,
+      23,
+      25
+    ],
+    "test": [
+      2,
+      4,
+      5,
+      10,
+      12,
+      15,
+      17
+    ]
+  },
+  "kernel": "hals_cholesky_residual1",
+  "metric": "MAPE",
+  "regime_rows": 27,
+  "all_rows": 128
+}

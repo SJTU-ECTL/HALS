@@ -1,0 +1,19 @@
+{
+  "status": "identical",
+  "mismatches": {
+    "ports": [],
+    "outputs": [],
+    "states": []
+  },
+  "original_cells": 230,
+  "partitioned_cells": 768,
+  "primary_output_bits": 512,
+  "state_cells": 0,
+  "original_undriven_symbols": 0,
+  "partitioned_undriven_symbols": 0,
+  "proof": "Identical typed RTL operator DAGs at every primary output and every state-cell input; state parameters, port shapes and initialization compared",
+  "benchmark": "fft",
+  "elapsed_sec": 0.2639610767364502,
+  "original": "workspace:experiments/hals_comparison_20260914/structure/fft/flat.json",
+  "partitioned": "workspace:experiments/hals_comparison_20260914/structure/fft/hals/clean.json"
+}

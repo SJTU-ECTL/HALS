@@ -1,0 +1,57 @@
+{
+  "train_n": 8,
+  "validation_n": 1,
+  "test_n": 2,
+  "local_or_global_input_dimensions": 1,
+  "selected_backend": "hals_power",
+  "power_validation": {
+    "n": 1,
+    "r2": null,
+    "rmse": 1.5222887126714087e-07,
+    "mae": 1.5222887126714087e-07
+  },
+  "power_test": {
+    "n": 2,
+    "r2": 0.9991894751076971,
+    "rmse": 1.086139127911608e-05,
+    "mae": 7.838831230763449e-06
+  },
+  "selected_validation": {
+    "n": 1,
+    "r2": null,
+    "rmse": 1.5222887126714087e-07,
+    "mae": 1.5222887126714087e-07
+  },
+  "selected_test": {
+    "n": 2,
+    "r2": 0.9991894751076971,
+    "rmse": 1.086139127911608e-05,
+    "mae": 7.838831230763449e-06
+  },
+  "power_reliable": false,
+  "power_gamma": 3.2068348988561666e-07,
+  "elapsed_sec": 0.05236673355102539,
+  "split": {
+    "train": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      10
+    ],
+    "validation": [
+      5
+    ],
+    "test": [
+      0,
+      9
+    ]
+  },
+  "kernel": "gesummv_combine",
+  "metric": "NMSE",
+  "regime_rows": 11,
+  "all_rows": 17
+}

@@ -1,0 +1,18 @@
+{
+  "backend": "hals_power",
+  "prediction_semantics": "clamped_raw",
+  "feature_cols": [
+    "NMSE"
+  ],
+  "alpha": [
+    47.070033787459444
+  ],
+  "beta": [
+    1.0
+  ],
+  "input_scale": [
+    1.0
+  ],
+  "intercept": 0.0,
+  "note": "Exact unit conversion; no learned error model for one scalar partition"
+}

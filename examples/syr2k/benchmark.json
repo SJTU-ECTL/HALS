@@ -1,0 +1,8 @@
+{
+  "benchmark": "syr2k",
+  "method": "C",
+  "partition_count": 1,
+  "partition_names": [
+    "hals_syr2k"
+  ]
+}

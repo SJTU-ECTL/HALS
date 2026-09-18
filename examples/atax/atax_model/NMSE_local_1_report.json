@@ -1,0 +1,60 @@
+{
+  "train_n": 10,
+  "validation_n": 2,
+  "test_n": 2,
+  "local_or_global_input_dimensions": 1,
+  "selected_backend": "mlp_relu",
+  "power_validation": {
+    "n": 2,
+    "r2": 0.3539251326936981,
+    "rmse": 0.27920869201538917,
+    "mae": 0.23165302142763664
+  },
+  "power_test": {
+    "n": 2,
+    "r2": 0.8034531881734687,
+    "rmse": 0.08733723817224398,
+    "mae": 0.06175675336169831
+  },
+  "selected_validation": {
+    "n": 2,
+    "r2": 0.9293712126577887,
+    "rmse": 0.09231629907575027,
+    "mae": 0.06857475194516094
+  },
+  "selected_test": {
+    "n": 2,
+    "r2": 0.9986859715988406,
+    "rmse": 0.007141161066670903,
+    "mae": 0.005049563415788355
+  },
+  "power_reliable": false,
+  "power_gamma": -0.6480151341098153,
+  "elapsed_sec": 0.07292342185974121,
+  "split": {
+    "train": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      10,
+      12,
+      13
+    ],
+    "validation": [
+      5,
+      11
+    ],
+    "test": [
+      0,
+      9
+    ]
+  },
+  "kernel": "atax_y_acc",
+  "metric": "NMSE",
+  "regime_rows": 14,
+  "all_rows": 17
+}

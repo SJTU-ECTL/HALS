@@ -1,0 +1,6 @@
+{
+  "benchmark": "fft",
+  "partition": null,
+  "scalars": [],
+  "kernels": []
+}

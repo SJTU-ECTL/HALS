@@ -1,0 +1,10 @@
+{
+  "benchmark": "cholesky",
+  "method": "C",
+  "partition_count": 3,
+  "partition_names": [
+    "hals_cholesky_div0",
+    "hals_cholesky_residual1",
+    "hals_cholesky_column1"
+  ]
+}

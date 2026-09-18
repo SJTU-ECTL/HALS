@@ -1,0 +1,19 @@
+{
+  "status": "identical",
+  "mismatches": {
+    "ports": [],
+    "outputs": [],
+    "states": []
+  },
+  "original_cells": 126473,
+  "partitioned_cells": 126473,
+  "primary_output_bits": 17,
+  "state_cells": 93,
+  "original_undriven_symbols": 1056,
+  "partitioned_undriven_symbols": 1056,
+  "proof": "Identical typed RTL operator DAGs at every primary output and every state-cell input; state parameters, port shapes and initialization compared",
+  "benchmark": "atax",
+  "elapsed_sec": 14.47105097770691,
+  "original": "workspace:experiments/hals_comparison_20260914/structure/atax/flat.json",
+  "partitioned": "workspace:experiments/hals_comparison_20260914/structure/atax/hals/clean.json"
+}

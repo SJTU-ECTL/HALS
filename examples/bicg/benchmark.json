@@ -1,0 +1,9 @@
+{
+  "benchmark": "bicg",
+  "method": "C",
+  "partition_count": 2,
+  "partition_names": [
+    "bicg_q_acc",
+    "bicg_s_acc"
+  ]
+}

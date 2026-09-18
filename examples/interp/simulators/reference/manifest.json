@@ -1,0 +1,6 @@
+{
+  "benchmark": "interp",
+  "partition": null,
+  "scalars": [],
+  "kernels": []
+}

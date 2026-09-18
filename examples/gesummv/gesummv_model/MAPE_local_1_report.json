@@ -1,0 +1,57 @@
+{
+  "train_n": 8,
+  "validation_n": 1,
+  "test_n": 2,
+  "local_or_global_input_dimensions": 1,
+  "selected_backend": "mlp_relu",
+  "power_validation": {
+    "n": 1,
+    "r2": null,
+    "rmse": 7.600678284283699e-05,
+    "mae": 7.600678284283699e-05
+  },
+  "power_test": {
+    "n": 2,
+    "r2": 0.9996763799172329,
+    "rmse": 0.00022687765236493616,
+    "mae": 0.00019013530445079627
+  },
+  "selected_validation": {
+    "n": 1,
+    "r2": null,
+    "rmse": 5.049454975160003e-05,
+    "mae": 5.049454975160003e-05
+  },
+  "selected_test": {
+    "n": 2,
+    "r2": 0.99753612343719,
+    "rmse": 0.0006260131564177157,
+    "mae": 0.0004426581480149617
+  },
+  "power_reliable": false,
+  "power_gamma": 6.635309593912106e-05,
+  "elapsed_sec": 0.19483399391174316,
+  "split": {
+    "train": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      10
+    ],
+    "validation": [
+      5
+    ],
+    "test": [
+      0,
+      9
+    ]
+  },
+  "kernel": "gesummv_combine",
+  "metric": "MAPE",
+  "regime_rows": 11,
+  "all_rows": 17
+}

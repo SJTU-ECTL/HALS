@@ -1,0 +1,23 @@
+{
+  "benchmark": "fft",
+  "method": "C",
+  "partition_count": 16,
+  "partition_names": [
+    "hals_fft_pair0",
+    "hals_fft_pair1",
+    "hals_fft_pair2",
+    "hals_fft_pair3",
+    "hals_fft_pair4",
+    "hals_fft_pair5",
+    "hals_fft_pair6",
+    "hals_fft_pair7",
+    "hals_fft_pair8",
+    "hals_fft_pair9",
+    "hals_fft_pair10",
+    "hals_fft_pair11",
+    "hals_fft_pair12",
+    "hals_fft_pair13",
+    "hals_fft_pair14",
+    "hals_fft_pair15"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "benchmark": "gesummv",
+  "method": "C",
+  "partition_count": 2,
+  "partition_names": [
+    "gesummv_acc",
+    "gesummv_combine"
+  ]
+}

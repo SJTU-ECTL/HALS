@@ -1,0 +1,792 @@
+{
+  "benchmark": "fft",
+  "partition": "hals",
+  "scalars": [
+    {
+      "kernel": 0,
+      "port": "o0",
+      "width": 16,
+      "signed": 1
+    },
+    {
+      "kernel": 0,
+      "port": "o1",
+      "width": 16,
+      "signed": 1
+    },
+    {
+      "kernel": 1,
+      "port": "o0",
+      "width": 16,
+      "signed": 1
+    },
+    {
+      "kernel": 1,
+      "port": "o1",
+      "width": 16,
+      "signed": 1
+    },
+    {
+      "kernel": 2,
+      "port": "o0",
+      "width": 16,
+      "signed": 1
+    },
+    {
+      "kernel": 2,
+      "port": "o1",
+      "width": 16,
+      "signed": 1
+    },
+    {
+      "kernel": 3,
+      "port": "o0",
+      "width": 16,
+      "signed": 1
+    },
+    {
+      "kernel": 3,
+      "port": "o1",
+      "width": 16,
+      "signed": 1
+    },
+    {
+      "kernel": 4,
+      "port": "o0",
+      "width": 16,
+      "signed": 1
+    },
+    {
+      "kernel": 4,
+      "port": "o1",
+      "width": 16,
+      "signed": 1
+    },
+    {
+      "kernel": 5,
+      "port": "o0",
+      "width": 16,
+      "signed": 1
+    },
+    {
+      "kernel": 5,
+      "port": "o1",
+      "width": 16,
+      "signed": 1
+    },
+    {
+      "kernel": 6,
+      "port": "o0",
+      "width": 16,
+      "signed": 1
+    },
+    {
+      "kernel": 6,
+      "port": "o1",
+      "width": 16,
+      "signed": 1
+    },
+    {
+      "kernel": 7,
+      "port": "o0",
+      "width": 16,
+      "signed": 1
+    },
+    {
+      "kernel": 7,
+      "port": "o1",
+      "width": 16,
+      "signed": 1
+    },
+    {
+      "kernel": 8,
+      "port": "o0",
+      "width": 16,
+      "signed": 1
+    },
+    {
+      "kernel": 8,
+      "port": "o1",
+      "width": 16,
+      "signed": 1
+    },
+    {
+      "kernel": 9,
+      "port": "o0",
+      "width": 16,
+      "signed": 1
+    },
+    {
+      "kernel": 9,
+      "port": "o1",
+      "width": 16,
+      "signed": 1
+    },
+    {
+      "kernel": 10,
+      "port": "o0",
+      "width": 16,
+      "signed": 1
+    },
+    {
+      "kernel": 10,
+      "port": "o1",
+      "width": 16,
+      "signed": 1
+    },
+    {
+      "kernel": 11,
+      "port": "o0",
+      "width": 16,
+      "signed": 1
+    },
+    {
+      "kernel": 11,
+      "port": "o1",
+      "width": 16,
+      "signed": 1
+    },
+    {
+      "kernel": 12,
+      "port": "o0",
+      "width": 16,
+      "signed": 1
+    },
+    {
+      "kernel": 12,
+      "port": "o1",
+      "width": 16,
+      "signed": 1
+    },
+    {
+      "kernel": 13,
+      "port": "o0",
+      "width": 16,
+      "signed": 1
+    },
+    {
+      "kernel": 13,
+      "port": "o1",
+      "width": 16,
+      "signed": 1
+    },
+    {
+      "kernel": 14,
+      "port": "o0",
+      "width": 16,
+      "signed": 1
+    },
+    {
+      "kernel": 14,
+      "port": "o1",
+      "width": 16,
+      "signed": 1
+    },
+    {
+      "kernel": 15,
+      "port": "o0",
+      "width": 16,
+      "signed": 1
+    },
+    {
+      "kernel": 15,
+      "port": "o1",
+      "width": 16,
+      "signed": 1
+    }
+  ],
+  "kernels": [
+    {
+      "name": "hals_fft_pair0",
+      "input_width": 256,
+      "input_ports": [
+        "i0",
+        "i1",
+        "i2",
+        "i3",
+        "i4",
+        "i5",
+        "i6",
+        "i7",
+        "i8",
+        "i9",
+        "i10",
+        "i11",
+        "i12",
+        "i13",
+        "i14",
+        "i15"
+      ],
+      "scalar_indices": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "hals_fft_pair1",
+      "input_width": 256,
+      "input_ports": [
+        "i0",
+        "i1",
+        "i2",
+        "i3",
+        "i4",
+        "i5",
+        "i6",
+        "i7",
+        "i8",
+        "i9",
+        "i10",
+        "i11",
+        "i12",
+        "i13",
+        "i14",
+        "i15"
+      ],
+      "scalar_indices": [
+        2,
+        3
+      ]
+    },
+    {
+      "name": "hals_fft_pair2",
+      "input_width": 384,
+      "input_ports": [
+        "i0",
+        "i1",
+        "i2",
+        "i3",
+        "i4",
+        "i5",
+        "i6",
+        "i7",
+        "i8",
+        "i9",
+        "i10",
+        "i11",
+        "i12",
+        "i13",
+        "i14",
+        "i15",
+        "i16",
+        "i17",
+        "i18",
+        "i19",
+        "i20",
+        "i21",
+        "i22",
+        "i23"
+      ],
+      "scalar_indices": [
+        4,
+        5
+      ]
+    },
+    {
+      "name": "hals_fft_pair3",
+      "input_width": 384,
+      "input_ports": [
+        "i0",
+        "i1",
+        "i2",
+        "i3",
+        "i4",
+        "i5",
+        "i6",
+        "i7",
+        "i8",
+        "i9",
+        "i10",
+        "i11",
+        "i12",
+        "i13",
+        "i14",
+        "i15",
+        "i16",
+        "i17",
+        "i18",
+        "i19",
+        "i20",
+        "i21",
+        "i22",
+        "i23"
+      ],
+      "scalar_indices": [
+        6,
+        7
+      ]
+    },
+    {
+      "name": "hals_fft_pair4",
+      "input_width": 448,
+      "input_ports": [
+        "i0",
+        "i1",
+        "i2",
+        "i3",
+        "i4",
+        "i5",
+        "i6",
+        "i7",
+        "i8",
+        "i9",
+        "i10",
+        "i11",
+        "i12",
+        "i13",
+        "i14",
+        "i15",
+        "i16",
+        "i17",
+        "i18",
+        "i19",
+        "i20",
+        "i21",
+        "i22",
+        "i23",
+        "i24",
+        "i25",
+        "i26",
+        "i27"
+      ],
+      "scalar_indices": [
+        8,
+        9
+      ]
+    },
+    {
+      "name": "hals_fft_pair5",
+      "input_width": 448,
+      "input_ports": [
+        "i0",
+        "i1",
+        "i2",
+        "i3",
+        "i4",
+        "i5",
+        "i6",
+        "i7",
+        "i8",
+        "i9",
+        "i10",
+        "i11",
+        "i12",
+        "i13",
+        "i14",
+        "i15",
+        "i16",
+        "i17",
+        "i18",
+        "i19",
+        "i20",
+        "i21",
+        "i22",
+        "i23",
+        "i24",
+        "i25",
+        "i26",
+        "i27"
+      ],
+      "scalar_indices": [
+        10,
+        11
+      ]
+    },
+    {
+      "name": "hals_fft_pair6",
+      "input_width": 448,
+      "input_ports": [
+        "i0",
+        "i1",
+        "i2",
+        "i3",
+        "i4",
+        "i5",
+        "i6",
+        "i7",
+        "i8",
+        "i9",
+        "i10",
+        "i11",
+        "i12",
+        "i13",
+        "i14",
+        "i15",
+        "i16",
+        "i17",
+        "i18",
+        "i19",
+        "i20",
+        "i21",
+        "i22",
+        "i23",
+        "i24",
+        "i25",
+        "i26",
+        "i27"
+      ],
+      "scalar_indices": [
+        12,
+        13
+      ]
+    },
+    {
+      "name": "hals_fft_pair7",
+      "input_width": 448,
+      "input_ports": [
+        "i0",
+        "i1",
+        "i2",
+        "i3",
+        "i4",
+        "i5",
+        "i6",
+        "i7",
+        "i8",
+        "i9",
+        "i10",
+        "i11",
+        "i12",
+        "i13",
+        "i14",
+        "i15",
+        "i16",
+        "i17",
+        "i18",
+        "i19",
+        "i20",
+        "i21",
+        "i22",
+        "i23",
+        "i24",
+        "i25",
+        "i26",
+        "i27"
+      ],
+      "scalar_indices": [
+        14,
+        15
+      ]
+    },
+    {
+      "name": "hals_fft_pair8",
+      "input_width": 480,
+      "input_ports": [
+        "i0",
+        "i1",
+        "i2",
+        "i3",
+        "i4",
+        "i5",
+        "i6",
+        "i7",
+        "i8",
+        "i9",
+        "i10",
+        "i11",
+        "i12",
+        "i13",
+        "i14",
+        "i15",
+        "i16",
+        "i17",
+        "i18",
+        "i19",
+        "i20",
+        "i21",
+        "i22",
+        "i23",
+        "i24",
+        "i25",
+        "i26",
+        "i27",
+        "i28",
+        "i29"
+      ],
+      "scalar_indices": [
+        16,
+        17
+      ]
+    },
+    {
+      "name": "hals_fft_pair9",
+      "input_width": 480,
+      "input_ports": [
+        "i0",
+        "i1",
+        "i2",
+        "i3",
+        "i4",
+        "i5",
+        "i6",
+        "i7",
+        "i8",
+        "i9",
+        "i10",
+        "i11",
+        "i12",
+        "i13",
+        "i14",
+        "i15",
+        "i16",
+        "i17",
+        "i18",
+        "i19",
+        "i20",
+        "i21",
+        "i22",
+        "i23",
+        "i24",
+        "i25",
+        "i26",
+        "i27",
+        "i28",
+        "i29"
+      ],
+      "scalar_indices": [
+        18,
+        19
+      ]
+    },
+    {
+      "name": "hals_fft_pair10",
+      "input_width": 480,
+      "input_ports": [
+        "i0",
+        "i1",
+        "i2",
+        "i3",
+        "i4",
+        "i5",
+        "i6",
+        "i7",
+        "i8",
+        "i9",
+        "i10",
+        "i11",
+        "i12",
+        "i13",
+        "i14",
+        "i15",
+        "i16",
+        "i17",
+        "i18",
+        "i19",
+        "i20",
+        "i21",
+        "i22",
+        "i23",
+        "i24",
+        "i25",
+        "i26",
+        "i27",
+        "i28",
+        "i29"
+      ],
+      "scalar_indices": [
+        20,
+        21
+      ]
+    },
+    {
+      "name": "hals_fft_pair11",
+      "input_width": 480,
+      "input_ports": [
+        "i0",
+        "i1",
+        "i2",
+        "i3",
+        "i4",
+        "i5",
+        "i6",
+        "i7",
+        "i8",
+        "i9",
+        "i10",
+        "i11",
+        "i12",
+        "i13",
+        "i14",
+        "i15",
+        "i16",
+        "i17",
+        "i18",
+        "i19",
+        "i20",
+        "i21",
+        "i22",
+        "i23",
+        "i24",
+        "i25",
+        "i26",
+        "i27",
+        "i28",
+        "i29"
+      ],
+      "scalar_indices": [
+        22,
+        23
+      ]
+    },
+    {
+      "name": "hals_fft_pair12",
+      "input_width": 480,
+      "input_ports": [
+        "i0",
+        "i1",
+        "i2",
+        "i3",
+        "i4",
+        "i5",
+        "i6",
+        "i7",
+        "i8",
+        "i9",
+        "i10",
+        "i11",
+        "i12",
+        "i13",
+        "i14",
+        "i15",
+        "i16",
+        "i17",
+        "i18",
+        "i19",
+        "i20",
+        "i21",
+        "i22",
+        "i23",
+        "i24",
+        "i25",
+        "i26",
+        "i27",
+        "i28",
+        "i29"
+      ],
+      "scalar_indices": [
+        24,
+        25
+      ]
+    },
+    {
+      "name": "hals_fft_pair13",
+      "input_width": 480,
+      "input_ports": [
+        "i0",
+        "i1",
+        "i2",
+        "i3",
+        "i4",
+        "i5",
+        "i6",
+        "i7",
+        "i8",
+        "i9",
+        "i10",
+        "i11",
+        "i12",
+        "i13",
+        "i14",
+        "i15",
+        "i16",
+        "i17",
+        "i18",
+        "i19",
+        "i20",
+        "i21",
+        "i22",
+        "i23",
+        "i24",
+        "i25",
+        "i26",
+        "i27",
+        "i28",
+        "i29"
+      ],
+      "scalar_indices": [
+        26,
+        27
+      ]
+    },
+    {
+      "name": "hals_fft_pair14",
+      "input_width": 480,
+      "input_ports": [
+        "i0",
+        "i1",
+        "i2",
+        "i3",
+        "i4",
+        "i5",
+        "i6",
+        "i7",
+        "i8",
+        "i9",
+        "i10",
+        "i11",
+        "i12",
+        "i13",
+        "i14",
+        "i15",
+        "i16",
+        "i17",
+        "i18",
+        "i19",
+        "i20",
+        "i21",
+        "i22",
+        "i23",
+        "i24",
+        "i25",
+        "i26",
+        "i27",
+        "i28",
+        "i29"
+      ],
+      "scalar_indices": [
+        28,
+        29
+      ]
+    },
+    {
+      "name": "hals_fft_pair15",
+      "input_width": 480,
+      "input_ports": [
+        "i0",
+        "i1",
+        "i2",
+        "i3",
+        "i4",
+        "i5",
+        "i6",
+        "i7",
+        "i8",
+        "i9",
+        "i10",
+        "i11",
+        "i12",
+        "i13",
+        "i14",
+        "i15",
+        "i16",
+        "i17",
+        "i18",
+        "i19",
+        "i20",
+        "i21",
+        "i22",
+        "i23",
+        "i24",
+        "i25",
+        "i26",
+        "i27",
+        "i28",
+        "i29"
+      ],
+      "scalar_indices": [
+        30,
+        31
+      ]
+    }
+  ]
+}

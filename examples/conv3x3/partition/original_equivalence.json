@@ -1,0 +1,19 @@
+{
+  "status": "identical",
+  "mismatches": {
+    "ports": [],
+    "outputs": [],
+    "states": []
+  },
+  "original_cells": 17,
+  "partitioned_cells": 17,
+  "primary_output_bits": 20,
+  "state_cells": 0,
+  "original_undriven_symbols": 0,
+  "partitioned_undriven_symbols": 0,
+  "proof": "Identical typed RTL operator DAGs at every primary output and every state-cell input; state parameters, port shapes and initialization compared",
+  "benchmark": "conv3x3",
+  "elapsed_sec": 0.008455991744995117,
+  "original": "workspace:experiments/hals_comparison_20260914/structure/conv3x3/flat.json",
+  "partitioned": "workspace:experiments/hals_comparison_20260914/structure/conv3x3/hals/clean.json"
+}

@@ -1,0 +1,6 @@
+{
+  "benchmark": "decimation",
+  "partition": null,
+  "scalars": [],
+  "kernels": []
+}

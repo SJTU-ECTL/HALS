@@ -1,0 +1,89 @@
+{
+  "module": "hals_interp_k2",
+  "IO": {
+    "i0": {
+      "direction": "input",
+      "width": 16,
+      "signed": 0
+    },
+    "i1": {
+      "direction": "input",
+      "width": 16,
+      "signed": 0
+    },
+    "i2": {
+      "direction": "input",
+      "width": 16,
+      "signed": 0
+    },
+    "i3": {
+      "direction": "input",
+      "width": 16,
+      "signed": 0
+    },
+    "i4": {
+      "direction": "input",
+      "width": 16,
+      "signed": 0
+    },
+    "i5": {
+      "direction": "input",
+      "width": 16,
+      "signed": 0
+    },
+    "i6": {
+      "direction": "input",
+      "width": 16,
+      "signed": 0
+    },
+    "i7": {
+      "direction": "input",
+      "width": 16,
+      "signed": 0
+    },
+    "o0": {
+      "direction": "output",
+      "width": 35,
+      "signed": 1
+    }
+  },
+  "blifPath": "@ROOT@/examples/interp/partition/als_exact/hals_interp_k2/exact.blif",
+  "patternFile": "@ROOT@/examples/interp/partition/als_patterns/hals_interp_k2.pattern",
+  "outputNum": 1,
+  "outputWidths": [
+    35
+  ],
+  "isSigned": true,
+  "errorType": "MAPE",
+  "errorBounds": [
+    0.001,
+    0.01
+  ],
+  "errorBound": 0.001,
+  "designErrUppBounds": [
+    0.001,
+    0.01
+  ],
+  "designErrUppBound": 0.001,
+  "designModelPath": "@ROOT@/examples/interp/interp_model/als/NMSE/hals_interp_k2.json",
+  "featureIndices": [
+    0
+  ],
+  "featureMetrics": [
+    "ERROR_VECTOR_0"
+  ],
+  "initialFeatureVector": [
+    0.0
+  ],
+  "modelSafetyMargin": 0.0,
+  "scalarKernelFeature": false,
+  "nFrame": 4096,
+  "distrType": "SELF",
+  "seed": 2027,
+  "maxRound": 0,
+  "maxCandResub": 1000000,
+  "maxExactCandValidate": 1000000,
+  "candidateValidationPolicy": "complete_size_gain",
+  "candidateFeatureSource": "simulation",
+  "earlyExitPolicy": "disabled"
+}

@@ -1,0 +1,21 @@
+{
+  "backend": "hals_power",
+  "prediction_semantics": "clamped_raw",
+  "feature_cols": [
+    "atax_tmp_acc",
+    "atax_y_acc"
+  ],
+  "alpha": [
+    23.51750619212303,
+    3.2213581367741133
+  ],
+  "beta": [
+    1.7714776052657868,
+    3.4878622088329716
+  ],
+  "input_scale": [
+    34.44518340710175,
+    34.45116370766587
+  ],
+  "intercept": 6.080576401447881
+}

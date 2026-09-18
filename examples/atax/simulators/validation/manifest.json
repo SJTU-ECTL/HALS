@@ -1,0 +1,44 @@
+{
+  "benchmark": "atax",
+  "partition": "hals",
+  "scalars": [
+    {
+      "kernel": 0,
+      "port": "o0",
+      "width": 16,
+      "signed": 0
+    },
+    {
+      "kernel": 1,
+      "port": "o0",
+      "width": 16,
+      "signed": 0
+    }
+  ],
+  "kernels": [
+    {
+      "name": "atax_tmp_acc",
+      "input_width": 48,
+      "input_ports": [
+        "i0",
+        "i1",
+        "i2"
+      ],
+      "scalar_indices": [
+        0
+      ]
+    },
+    {
+      "name": "atax_y_acc",
+      "input_width": 48,
+      "input_ports": [
+        "i0",
+        "i1",
+        "i2"
+      ],
+      "scalar_indices": [
+        1
+      ]
+    }
+  ]
+}

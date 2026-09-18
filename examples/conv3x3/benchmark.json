@@ -1,0 +1,8 @@
+{
+  "benchmark": "conv3x3",
+  "method": "C",
+  "partition_count": 1,
+  "partition_names": [
+    "hals_conv3x3"
+  ]
+}

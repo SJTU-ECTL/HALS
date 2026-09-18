@@ -1,0 +1,56 @@
+{
+  "train_n": 7,
+  "validation_n": 1,
+  "test_n": 2,
+  "local_or_global_input_dimensions": 1,
+  "selected_backend": "hals_power",
+  "power_validation": {
+    "n": 1,
+    "r2": null,
+    "rmse": 0.00067456548856291,
+    "mae": 0.00067456548856291
+  },
+  "power_test": {
+    "n": 2,
+    "r2": 0.9916774856556263,
+    "rmse": 0.002309098353792269,
+    "mae": 0.0016327791043932068
+  },
+  "selected_validation": {
+    "n": 1,
+    "r2": null,
+    "rmse": 0.00067456548856291,
+    "mae": 0.00067456548856291
+  },
+  "selected_test": {
+    "n": 2,
+    "r2": 0.9916774856556263,
+    "rmse": 0.002309098353792269,
+    "mae": 0.0016327791043932068
+  },
+  "power_reliable": false,
+  "power_gamma": -0.00034041891889257124,
+  "elapsed_sec": 0.007718324661254883,
+  "split": {
+    "train": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8
+    ],
+    "validation": [
+      5
+    ],
+    "test": [
+      0,
+      9
+    ]
+  },
+  "kernel": "decim_stage3",
+  "metric": "NMSE",
+  "regime_rows": 10,
+  "all_rows": 17
+}

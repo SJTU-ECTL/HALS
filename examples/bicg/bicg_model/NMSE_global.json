@@ -1,0 +1,21 @@
+{
+  "backend": "hals_power",
+  "prediction_semantics": "clamped_raw",
+  "feature_cols": [
+    "bicg_q_acc",
+    "bicg_s_acc"
+  ],
+  "alpha": [
+    0.4711456355740965,
+    0.5288543644259031
+  ],
+  "beta": [
+    0.9999999999999974,
+    0.9999999999999993
+  ],
+  "input_scale": [
+    0.4711456355740967,
+    0.5288543644259032
+  ],
+  "intercept": 2.6135982942338055e-16
+}

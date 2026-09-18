@@ -1,0 +1,6 @@
+{
+  "benchmark": "conv3x3",
+  "partition": null,
+  "scalars": [],
+  "kernels": []
+}

@@ -1,0 +1,44 @@
+{
+  "benchmark": "bicg",
+  "partition": "hals",
+  "scalars": [
+    {
+      "kernel": 0,
+      "port": "o0",
+      "width": 16,
+      "signed": 0
+    },
+    {
+      "kernel": 1,
+      "port": "o0",
+      "width": 16,
+      "signed": 0
+    }
+  ],
+  "kernels": [
+    {
+      "name": "bicg_q_acc",
+      "input_width": 48,
+      "input_ports": [
+        "i0",
+        "i1",
+        "i2"
+      ],
+      "scalar_indices": [
+        0
+      ]
+    },
+    {
+      "name": "bicg_s_acc",
+      "input_width": 48,
+      "input_ports": [
+        "i0",
+        "i1",
+        "i2"
+      ],
+      "scalar_indices": [
+        1
+      ]
+    }
+  ]
+}

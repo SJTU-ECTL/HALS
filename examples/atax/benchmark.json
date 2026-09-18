@@ -1,0 +1,9 @@
+{
+  "benchmark": "atax",
+  "method": "C",
+  "partition_count": 2,
+  "partition_names": [
+    "atax_tmp_acc",
+    "atax_y_acc"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "backend": "hals_power",
+  "prediction_semantics": "clamped_raw",
+  "feature_cols": [
+    "s3_MAPE"
+  ],
+  "alpha": [
+    0.22323152577474978
+  ],
+  "beta": [
+    1.0949440571937004
+  ],
+  "input_scale": [
+    0.1346606774486726
+  ],
+  "intercept": 0.001497074856955457
+}

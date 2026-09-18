@@ -1,0 +1,83 @@
+{
+  "module": "hals_cholesky_residual1",
+  "IO": {
+    "i0": {
+      "direction": "input",
+      "width": 16,
+      "signed": 0
+    },
+    "i1": {
+      "direction": "input",
+      "width": 16,
+      "signed": 0
+    },
+    "i2": {
+      "direction": "input",
+      "width": 16,
+      "signed": 0
+    },
+    "i3": {
+      "direction": "input",
+      "width": 16,
+      "signed": 0
+    },
+    "i4": {
+      "direction": "input",
+      "width": 16,
+      "signed": 0
+    },
+    "o0": {
+      "direction": "output",
+      "width": 16,
+      "signed": 0
+    },
+    "o1": {
+      "direction": "output",
+      "width": 32,
+      "signed": 0
+    }
+  },
+  "blifPath": "@ROOT@/examples/cholesky/partition/als_exact/hals_cholesky_residual1/exact.blif",
+  "patternFile": "@ROOT@/examples/cholesky/partition/als_patterns/hals_cholesky_residual1.pattern",
+  "outputNum": 2,
+  "outputWidths": [
+    16,
+    32
+  ],
+  "isSigned": false,
+  "errorType": "MAPE",
+  "errorBounds": [
+    0.001,
+    0.01
+  ],
+  "errorBound": 0.001,
+  "designErrUppBounds": [
+    0.001,
+    0.01
+  ],
+  "designErrUppBound": 0.001,
+  "designModelPath": "@ROOT@/examples/cholesky/cholesky_model/als/NMSE/hals_cholesky_residual1.json",
+  "featureIndices": [
+    0,
+    1
+  ],
+  "featureMetrics": [
+    "ERROR_VECTOR_0",
+    "ERROR_VECTOR_1"
+  ],
+  "initialFeatureVector": [
+    0.0,
+    0.0
+  ],
+  "modelSafetyMargin": 0.0,
+  "scalarKernelFeature": false,
+  "nFrame": 4096,
+  "distrType": "SELF",
+  "seed": 2027,
+  "maxRound": 0,
+  "maxCandResub": 1000000,
+  "maxExactCandValidate": 1000000,
+  "candidateValidationPolicy": "complete_size_gain",
+  "candidateFeatureSource": "simulation",
+  "earlyExitPolicy": "disabled"
+}

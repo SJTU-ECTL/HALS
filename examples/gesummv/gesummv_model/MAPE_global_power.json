@@ -1,0 +1,21 @@
+{
+  "backend": "hals_power",
+  "prediction_semantics": "clamped_raw",
+  "feature_cols": [
+    "gesummv_acc",
+    "gesummv_combine"
+  ],
+  "alpha": [
+    0.5074011703513376,
+    0.051183220916233584
+  ],
+  "beta": [
+    0.9997251845728672,
+    0.9909730522908097
+  ],
+  "input_scale": [
+    0.5074422195928217,
+    0.0508036046953589
+  ],
+  "intercept": -4.447794542821883e-05
+}

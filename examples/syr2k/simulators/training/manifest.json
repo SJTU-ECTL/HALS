@@ -1,0 +1,21 @@
+{
+  "benchmark": "syr2k",
+  "partition": "hals",
+  "scalars": [
+    {
+      "kernel": 0,
+      "port": "o0",
+      "width": 16,
+      "signed": 0
+    }
+  ],
+  "kernels": [
+    {
+      "name": "hals_syr2k",
+      "input_width": 112,
+      "scalar_indices": [
+        0
+      ]
+    }
+  ]
+}
